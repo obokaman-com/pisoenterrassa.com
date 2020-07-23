@@ -1,0 +1,228 @@
+/* @group CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td { border:0; margin:0; padding:0; outline:0; font-size:100%; background:transparent; vertical-align:baseline; }
+body { line-height:1; }
+ol, ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+:focus { outline:0; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-spacing:0; border-collapse:collapse; }
+/* @end */
+
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #797979;
+	background: #efefef;
+}
+
+a {
+	color: #A9A9A9;
+}
+
+img {
+	vertical-align: middle;
+}
+
+ul {
+	list-style-type: disc;
+	padding-left: 18px;
+}
+
+h2 {
+	color: #C12D1F;
+	font-size: 14px;
+	padding: 9px 0;
+}
+
+#contenedor {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#piso-terrassa {
+	background: url(../img/piso-terrassa-bg.png) 0 0 no-repeat;
+	height: 363px;
+	background-color: #ccc;
+	text-align: right;
+	color: #fff;
+	font-size: 24px;
+	padding: 0 20px;
+}
+
+#piso-terrassa h1 {
+	text-align: left;
+	text-indent: -1000em;
+	position: absolute;
+}
+
+#piso-terrassa h2 {
+	padding: 70px 0 0;
+	font-size: 28px;
+	margin-bottom: 18px;
+}
+
+#piso-terrassa p {
+padding-left: 250px;
+text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;
+line-height: 25px;
+}
+
+#piso-terrassa p.precio {
+padding:0;
+font-weight: normal;
+text-align: center;
+margin-top: 98px;
+font-size: 18px;
+text-shadow: none;
+}
+
+#piso-terrassa p.precio em {
+	color:#C12D1F;
+	font-style: normal;
+	font-weight: bold;
+}
+
+div.floated {
+	float: left;
+	width: 50%;
+}
+
+div.left {
+	width: 55%;
+}
+
+div.right {
+	width: 43%;
+}
+
+#descripcion-piso-terrassa {
+	margin-top: 18px;
+}
+
+#descripcion-piso-terrassa ul.floated {
+	width: 40%;
+	float: left;
+}
+
+#descripcion-piso-terrassa ul.right {
+	margin-left: 6%;
+}
+
+#descripcion-piso-terrassa ul.galeria-piso-terrassa {
+	list-style-type: none;
+	padding: 0;
+}
+
+#descripcion-piso-terrassa ul.galeria-piso-terrassa li {
+	float: left;
+	width: 49%;
+	text-align: center;
+	margin-bottom: 18px;
+}
+
+#descripcion-piso-terrassa ul.galeria-piso-terrassa li img {
+	display: block;
+	padding: 2px;
+	background: #fff;
+	border:1px solid #ccc;
+	margin: 0 auto;
+}
+
+p.compartir-piso-terrassa {
+	font-size: 14px;
+	font-weight: bold;
+	color: #C12D1F;
+	text-align: center;
+	margin-top: 36px;
+}
+
+#cabecera-piso-terrassa {
+	background: url(../img/piso-terrassa-bg2.png) 0 0 no-repeat;
+	height: 120px;
+	margin: 40px 0 18px;
+}
+
+#cabecera-piso-terrassa h1 {
+	color: #fff;
+	font-size: 24px;
+	padding: 90px 0 0 15px;
+}
+
+#menu-piso-terrassa {
+	position: absolute;
+	top: 20px;
+}
+
+#menu-piso-terrassa ul {
+	padding: 0;
+}
+
+#menu-piso-terrassa li {
+	float: left;
+	list-style-type:none;
+	margin-right: 18px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#menu-piso-terrassa a {
+	text-decoration: none;
+}
+
+#menu-piso-terrassa li.active a {
+	color: #666;
+}
+
+#contenido-piso-terrassa p {
+	font-size: 14px;
+}
+
+#fotos-piso-terrassa {
+	margin: 18px 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#fotos-piso-terrassa li {
+	float: left;
+	width: 32%;
+	text-align: center;
+	margin-bottom: 18px;
+	height: 200px;
+}
+
+#fotos-piso-terrassa li img {
+	display: block;
+	margin: 0 auto;
+	padding: 4px;
+	background: #fff;
+	border: 2px solid #ccc;
+}
+
+#pie-piso-terrassa {
+	font-size: 10px;
+	text-align: center;
+	border-top: 1px solid #C12D1F;
+}
+
+/* @group Fixes & Hacks */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+* html .clearfix { height:1px; }
+.clearfix { *display:inline-block; }
+/* Hide from IE Mac \*/
+.clearfix { display:block; }
+/* End hide from IE Mac */
+/* @end */
